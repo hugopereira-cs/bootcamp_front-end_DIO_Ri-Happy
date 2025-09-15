@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        /* div p {
+            background-color: lightgreen;
+        } /* Combinador descendente, seleciona todos p dentro da div, incluindo os que estão dentro de span (neto) */
+
+        /* div > p {
+            color: red;
+        } /* Combinador filho, seleciona apenas os p que são filhos diretos da div */ 
+
+        .fundo-azul > p {
+            background-color: lightblue;
+        }
+
+        .fundo-verde > p {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="fundo-verde">
+        <p>Parágrafo 1 dentro da div</p>
+        <p>Parágrafo 2 dentro da div</p>
+        <span>
+            <p>Parágrafo 3 dentro da div, dentro da span</p>
+        </span>
+    </div>
+    <div class="fundo-verde">
+        <p>Parágrafo 4 dentro da div</p>
+        <p>Parágrafo 5 dentro da div</p>
+        <span>
+            <p>Parágrafo 6 dentro da div, dentro da span</p>
+        </span>
+    </div>
+    <div class="fundo-azul">
+        <p>Parágrafo 7 dentro da div</p>
+        <p>Parágrafo 8 dentro da div</p>
+        <span>
+            <p>Parágrafo 9 dentro da div, dentro da span</p>
+        </span>
+    </div>
+
+    <p>Parágrafo 10 fora da div</p>
+    <p>Parágrafo 11 fora da div</p>
+</body>
+</html>

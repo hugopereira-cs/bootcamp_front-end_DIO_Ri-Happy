@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        div {
+            width: 300px;
+            height: 300px;
+        }
+
+        #elemento-01 {
+            background-color: orange;
+            margin: 20px; /* Um único valor, aplica o valor especificado para os quatro lados. Dois valores passados, aplica o primeiro para top e bottom, e o segundo, para right e left*/
+        }
+
+        #elemento-02 {
+            background-color: purple;
+            /* margin-top: 10px;
+            margin-left: 25px;
+            margin-right: 30px; */
+            margin: 20px 10px 40px; /* Três valores passados, aplica o primeiro para top, o segundo para right e left, e o terceiro para bottom */
+            /* Em caso de quatro valores, é só lembrar que segue-se o sentido horário, top, right, bottom, left */
+        }
+    </style>
+</head>
+<body>
+    <div id="elemento-01"></div>
+    <div id="elemento-02"></div>
+</body>
+</html>

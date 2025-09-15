@@ -1,0 +1,28 @@
+/* Seletor de tag (ou tipo) */
+h1 {
+    background-color: darkblue;
+    color: lightgreen;
+}
+
+/*div {
+    background-color: lightgreen;
+    color: darkblue;
+}*/
+
+/*li {
+    background: lightgreen;
+}*/
+
+/* Seletor por ID (#) */
+#texto-de-boas-vindas {
+    background-color: red;
+    color: white;
+}
+
+/* Seletor por classe */
+.seletores-mais-comuns {
+    color: red;
+}
+.texto-maiusculo {
+    text-transform: uppercase;
+}

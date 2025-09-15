@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        /* Seletor de atributo */
+        [title="Netflix"] {
+            color: red;
+        } /* Aplica a cor vermelha a todos os elementos que possuem o atributo title, com valor "Netflix" */
+        [title="Spotify"] {
+            color: green;
+        }
+        [title="Prime"] {
+            color: lightblue;
+        }
+        [href^="https://"] {
+            background-color: lightgreen;
+        } /* Seletor de prefixo do href */
+        [href$="login"] {
+            background-color: lightgoldenrodyellow;
+        } /* Seletor de sufixo do href */
+        [title*="sney"] {
+            background-color: lightskyblue;
+        } /* Selecionará todos os elementos que possuem "sney" em seu atributo title */
+
+
+        </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>
+                <a title="Netflix" href="http://www.netflix.com/login">Netflix</a>
+            </li>
+            <li>
+                <a title="Prime" href="http://www.primevideo.com/login">Amazon</a>
+            </li>
+            <li>
+                <a title="Spotify" href="https://www.spotify.com">Spotify</a>
+            </li>
+            <li>
+                <a title="Disney">Disney+</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
