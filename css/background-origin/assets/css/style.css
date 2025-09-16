@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 200vh;
+    background-color: lightcoral;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/background-01.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 15px dashed palegreen;
+    padding: 30px;
+}
+
+#fixed {
+    background-origin: padding-box;
+}
+#border-box {
+    background-origin: border-box;
+}
+
+#content-origin {
+    background-origin: content-box;
+}

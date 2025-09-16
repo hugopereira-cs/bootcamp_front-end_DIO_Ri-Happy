@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 200vh;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    color: white;
+    border: 15px dashed palegreen;
+    padding: 30px;
+    font-size: 38px;
+    font-weight: 900;
+    background-color: orange;
+    background-image: url(../images/pixnio-576x384.jpeg);
+}
+
+#multiply {
+    background-blend-mode: multiply;
+}
+
+#screen {
+    background-blend-mode: screen;
+}
+
+#overlay {
+    background-blend-mode: overlay;
+}

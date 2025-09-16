@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    background-color: palevioletred;
+    background-image: url('../images/background-02.jpg');
+}
+.exemplo2 {
+    width: 300px;
+    height: 300px;
+    background-color: palevioletred;
+    background-image: linear-gradient(lightblue, blue);
+}
+.exemplo3 {
+    width: 300px;
+    height: 300px;
+    background-color: palevioletred;
+    background-image: radial-gradient(lightblue, blue);
+}
+.exemplo4 {
+    width: 300px;
+    height: 300px;
+    background-color: palevioletred;
+    background-image: repeating-linear-gradient(to top, palevioletred 0 20px, lightpink 20px 40px);
+}
+.exemplo5 {
+    width: 300px;
+    height: 300px;
+    background:
+radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px) 0px 10px,
+radial-gradient(at 100% 100%,      rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px),
+#8a3;
+background-size: 20px 20px;
+} /* Background do site https://projects.verou.me/css3patterns/ */
