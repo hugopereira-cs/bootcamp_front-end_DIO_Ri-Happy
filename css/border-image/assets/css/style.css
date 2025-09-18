@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.exemplo {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border: 30px solid;
+    margin: 50px auto;
+
+}
+
+#exemplo-1 {
+    border-image-source: url('../images/estrelas.png');
+    border-image-repeat: round;
+    border-image-slice: 169;
+    border-image-width: 10px;
+    
+}
+
+#exemplo-2 {
+    border-image-source: linear-gradient(red, blue);
+    border-image-slice: 10;
+}
+
+#exemplo-resumido {
+    border-image: url('../images/estrelas.png') 169 round; /* url / slice / width / outset / repeat */
+}

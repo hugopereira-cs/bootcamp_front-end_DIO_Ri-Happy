@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.exemplo {
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    border: 10px solid darkcyan;
+    /*border-style: solid;
+    border-width: 10px 20px 30px 40px;
+    border-color: darkcyan orange;
+    border: 10px solid darkcyan; */
+
+
+    border-radius: 50%;
+}

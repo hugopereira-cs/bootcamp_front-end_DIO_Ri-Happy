@@ -1,0 +1,36 @@
+/* * {
+    font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+} */
+
+/* Importando uma fonte */
+/* @font-face {
+    font-family: Roboto;
+    src: local(), url(../fonts/Roboto-Regular.ttf);
+    font-weight: normal;
+} /* local() faz com que o navegador procure a fonte no pc antes de ter que baixar a fonte.*/
+/* @font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Black.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Thin.ttf");
+    font-weight: lighter;
+}
+
+p { 
+    font-family: Roboto;
+    font-weight: lighter;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Roboto;
+}
+
+p {
+    font-weight: bold;
+    font-style: italic;
+}
