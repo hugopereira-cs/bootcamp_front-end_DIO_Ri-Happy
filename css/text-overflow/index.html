@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        .exemplo {
+            width: 200px;
+            color: black;
+            background-color: chartreuse;
+        }
+
+        p {
+            white-space: nowrap;
+            overflow: hidden; /* hidden oculta os caracteres que excedem o limite do elemento. */
+        }
+
+        #clip {
+            text-overflow: clip; /* Valor padrão. */
+        }
+
+        #ellipsis {
+            text-overflow: ellipsis; /* O mais recomendado */
+        }
+
+        #string {
+            text-overflow: 'Ver mais'; /* Não funcionará na maioria dos navegadores. */
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade <code>text-overflow</code></h1>
+
+    <p>Mostra ao usuário que há mais texto no elemento, além do trecho que ele está vendo.</p>
+
+    <i>Exemplo: </i><code>text-overflow: clip;</code>
+    
+    <p id="clip" class="exemplo">Chega de saudade A realidade é que sem ela não há paz</p>
+
+    <i>Exemplo: </i><code>text-overflow: ellipsis;</code>
+    <p id="ellipsis" class="exemplo">Chega de saudade A realidade é que sem ela não há paz</p>
+
+    <i>Exemplo: </i><code>text-overflow: string;</code>
+    <p id="string" class="exemplo">Chega de saudade A realidade é que sem ela não há paz</p>
+</body>
+</html>
